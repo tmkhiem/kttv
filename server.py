@@ -17,7 +17,7 @@ def get_flood_data():
                 'flood': random.randint(0,4)
             }
 
-@app.route("/rain")
+@app.route("/rain") 
 def get_rain_data():
     location_id = request.args.get('location')
     timestamp = request.args.get('timestamp')
